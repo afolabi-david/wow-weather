@@ -9,7 +9,7 @@ let input = document.querySelector("#input"),
     month = date.getMonth(),
     day_date = date.getDate();
    
-showPop("double click item to delete", 300); 
+showPop("double click item to delete", 8000); 
 
 input.addEventListener("keydown", function(event) {
     if (event.keyCode == 13) {
