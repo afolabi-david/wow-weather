@@ -28,7 +28,7 @@ input.addEventListener("keydown", function(event) {
                 let li = document.createElement("li");
                 li.innerHTML = `
                     <li class="item">
-                         <h1 style="color: var(--blue)">${name}, ${sys.country} <img src="${img}" style="height: 25px; width: 50px;" /></h1>
+                         <h2 style="color: var(--blue)">${name}, ${sys.country} <img src="${img}" style="height: 25px; width: 50px;" /></h2>
                          <span>${days_array[day]}, ${months_array[month]} ${day_date}, ${year}</span>
                          <h1 style="font-size: 65px; color: var(--blue)">${Math.round(main.temp)}<sup>°c</span></h1>
                          <img src="${icon}" style="height: 90px; width: 90px" alt="icon" />
